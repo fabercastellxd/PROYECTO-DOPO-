@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+/**
+ * Write a description of class Tower here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Tower{
+    private int width;
+    private int maxHeight;
+    private boolean isVisible;
+    
+    private Rectangle linea;
+    private ArrayList<Rectangle> marcadores;
+    
+    public Tower(){
+        width = 10;
+        maxHeight = 10;
+        isVisible = false;
+        marcadores = new ArrayList<Rectangle>();
+        
+    }
+    public void makeVisible(){
+        isVisible = true;
+        /**
+         * Se crea un nuevo rectangulo que sera la "linea" que marcara las dimensiones de la torre
+         */
+        linea = new Rectangle();
+        linea.changeColor("black");
+        linea.changeSize(2, 280);
+        linea.moveVertical(280);
+        linea.moveHorizontal(-65);
+        linea.makeVisible();
+    }
+    
+}
