@@ -1,36 +1,8 @@
-import java.util.ArrayList;
-/**
- * Write a description of class Tower here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
-public class Tower{
-    private int width;
-    private int maxHeight;
-    private boolean isVisible;
-    
-    private Rectangle linea;
-    private ArrayList<Rectangle> marcadores;
-    
-    public Tower(){
-        width = 10;
-        maxHeight = 10;
-        isVisible = false;
-        marcadores = new ArrayList<Rectangle>();
-        
-    }
-    public void makeVisible(){
-        isVisible = true;
-        /**
-         * Se crea un nuevo rectangulo que sera la "linea" que marcara las dimensiones de la torre
-         */
-        linea = new Rectangle();
-        linea.changeColor("black");
-        linea.changeSize(2, 280);
-        linea.moveVertical(280);
-        linea.moveHorizontal(-65);
-        linea.makeVisible();
-    }
-    
-}
+1. ¿Cuáles fueron los mini-ciclos definidos? Justifíquenlos.
+2. ¿Cuál es el estado actual del proyecto en términos de mini-ciclos? ¿por qué?
+3. ¿Cuál fue el tiempo total invertido por cada uno de ustedes? (Horas/Hombre)
+4. ¿Cuál consideran fue el mayor logro? ¿Por qué?
+5. ¿Cuál consideran que fue el mayor problema técnico? ¿Qué hicieron para resolverlo?
+6. ¿Qué hicieron bien como equipo? ¿Qué se comprometen a hacer para mejorar los resultados?
+7. Considerando las prácticas XP incluidas en los laboratorios. ¿cuál fue la más útil? ¿por qué?
+8. ¿Qué referencias usaron? ¿Cuál fue la más útil? Incluyan citas con estándares adecuados.
