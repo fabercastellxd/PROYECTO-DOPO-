@@ -1,8 +1,18 @@
 1. ¿Cuáles fueron los mini-ciclos definidos? Justifíquenlos.
+El primero fue la creacion como tal de la torre, o sea makeVisible, makeInvisible y un constructor que delimita el margen de la torre. El segundo fue pushCup, popCup y removeCup para empezar
+a probar el funcionamiento como tal de estos elementos y ver que estuvieran dando respuesta. El tercero fue pushLid y popLid para lo mismo, empezar a probar las tapas de las tazas.
 2. ¿Cuál es el estado actual del proyecto en términos de mini-ciclos? ¿por qué?
+En estado base por asi decirlo ya que aun faltan muchos detalles por agregar
 3. ¿Cuál fue el tiempo total invertido por cada uno de ustedes? (Horas/Hombre)
+Juan Jose: 10 Horas
+Maria Angelica: 10 Horas
 4. ¿Cuál consideran fue el mayor logro? ¿Por qué?
+La mayor cercania y dialogo que tuvimos respecto a encuentros anteriores.
 5. ¿Cuál consideran que fue el mayor problema técnico? ¿Qué hicieron para resolverlo?
+La organizacion del tiempo y de los lapsos de trabajo. Lo resolvimos enfocandonos en lo que teniamos que hacer con el tiempo que quedaba.
 6. ¿Qué hicieron bien como equipo? ¿Qué se comprometen a hacer para mejorar los resultados?
+Nos escuchamos mutuamente en todo momento. Discutimos cada idea de la mejor forma. Nos comprometemos a ser mas organizados con el tiempo y el trabajo.
 7. Considerando las prácticas XP incluidas en los laboratorios. ¿cuál fue la más útil? ¿por qué?
+programacion en parejas. Aunque no hubo mucha organizacion, los momentos en que nos dispusimos a trabajar en un solo punto, ambos, al mismo tiempo, hubo mayor efectividad.
 8. ¿Qué referencias usaron? ¿Cuál fue la más útil? Incluyan citas con estándares adecuados.
+Ninguna.
