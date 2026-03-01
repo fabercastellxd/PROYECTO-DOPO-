@@ -1,18 +1,77 @@
+RETROSPECTIVA CICLO 1:
 1. ¿Cuáles fueron los mini-ciclos definidos? Justifíquenlos.
+
 El primero fue la creacion como tal de la torre, o sea makeVisible, makeInvisible y un constructor que delimita el margen de la torre. El segundo fue pushCup, popCup y removeCup para empezar
 a probar el funcionamiento como tal de estos elementos y ver que estuvieran dando respuesta. El tercero fue pushLid y popLid para lo mismo, empezar a probar las tapas de las tazas.
+
 2. ¿Cuál es el estado actual del proyecto en términos de mini-ciclos? ¿por qué?
+
 En estado base por asi decirlo ya que aun faltan muchos detalles por agregar
-3. ¿Cuál fue el tiempo total invertido por cada uno de ustedes? (Horas/Hombre)
+
+3. ¿Cuál fue el tiempo total invertido por cada uno de ustedes? (Horas/Nombre)
+
 Juan Jose: 10 Horas
 Maria Angelica: 10 Horas
+
 4. ¿Cuál consideran fue el mayor logro? ¿Por qué?
+
 La mayor cercania y dialogo que tuvimos respecto a encuentros anteriores.
+
 5. ¿Cuál consideran que fue el mayor problema técnico? ¿Qué hicieron para resolverlo?
+
 La organizacion del tiempo y de los lapsos de trabajo. Lo resolvimos enfocandonos en lo que teniamos que hacer con el tiempo que quedaba.
+
 6. ¿Qué hicieron bien como equipo? ¿Qué se comprometen a hacer para mejorar los resultados?
+
 Nos escuchamos mutuamente en todo momento. Discutimos cada idea de la mejor forma. Nos comprometemos a ser mas organizados con el tiempo y el trabajo.
+
 7. Considerando las prácticas XP incluidas en los laboratorios. ¿cuál fue la más útil? ¿por qué?
+
 programacion en parejas. Aunque no hubo mucha organizacion, los momentos en que nos dispusimos a trabajar en un solo punto, ambos, al mismo tiempo, hubo mayor efectividad.
+
 8. ¿Qué referencias usaron? ¿Cuál fue la más útil? Incluyan citas con estándares adecuados.
+
 Ninguna.
+
+RETROSPECTIVA CICLO 2:
+1. ¿Cuáles fueron los mini-ciclos definidos? Justifíquenlos.
+
+Mini-ciclo1: Refactorización del código anteriormente elaborado. Se hizo una herencia entre Cup y Lid hacia Rectangle y se conformó un solo arreglo en donde se colocan los elementos de la torre.
+Mini-ciclo2: Se implementaron los nuevos metodos que pedia el ciclo 2.
+Mini-ciclo3: Se implementó la clase TowerC2Test para realizar las pruebas de los metodos en modo invisible
+
+2. ¿Cuál es el estado actual del proyecto en términos de mini-ciclos? ¿por qué?
+
+En terminos de mini-ciclos se puede decir que el ciclo 2 está completo.
+El proyecto cuenta con una estructura solida. En cuestion de diseño falta 
+bastante, pero en cuestion de funcionalidad, hay un buen avance.
+
+3. ¿Cuál fue el tiempo total invertido por cada uno de ustedes? (Horas/Nombre)
+
+Juan Jose: 13 Horas
+Maria Angelica: 10 Horas
+
+4. ¿Cuál consideran fue el mayor logro? ¿Por qué?
+
+Comprender a un mas el funcionamiento del mismo codigo implementado. Es decir, cuando uno hace el codigo hay cosas
+que asume como "logica" por el simple hecho de tener sentido, pero mas adelante conforme se repasa dicho codigo, esas 
+pequeñas cosas van siendo aclaradas y dejan un buen desempeño para cada uno.
+
+5. ¿Cuál consideran que fue el mayor problema técnico? ¿Qué hicieron para resolverlo?
+
+Nuevamente, la organizacion nos hizo complicarnos un poco con la elaboracion del ciclo 2. Se trató de sobrellevar
+de la mejor manera y se pudo conseguir un buen trabajo.
+
+6. ¿Qué hicieron bien como equipo? ¿Qué se comprometen a hacer para mejorar los resultados?
+
+Escuchar las dudas del otro y concentrarnos en abordar todo el ciclo 2 sin descuidar aspectos fundamentales o 
+tecnicos como el funcionamiento correcto de los metodos, el sentido de los atributos, etc.
+
+7. Considerando las prácticas XP incluidas en los laboratorios. ¿cuál fue la más útil? ¿por qué?
+
+Pair programming nuevamente. El estar ambos en un solo computador hace que sobrellevar las dudas, problemas o inquietudes
+sea algo mas breve y casual, de modo que nos hace no quedarnos en un mismo punto por mucho tiempo sino que vemos el contexto
+del codigo y en base a eso se sigue avanzando.
+
+8. ¿Qué referencias usaron? ¿Cuál fue la más útil? Incluyan citas con estándares adecuados.
+Ninguna
